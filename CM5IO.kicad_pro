@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.39
+          "min_clearance": 0.12
         }
       },
       "diff_pair_dimensions": [
@@ -59,48 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|139230000|150500000|44050c2e-137a-4ee5-aab6-af6e82cb550c|c1309054-b3ec-4f1e-9334-00cba6baa146",
-          ""
-        ],
-        [
-          "clearance|140500000|149230000|fcebfa8a-eb3d-4196-9404-532dc9ddde9f|c1309054-b3ec-4f1e-9334-00cba6baa146",
-          ""
-        ],
-        [
-          "clearance|140920000|151770000|40ece557-24f2-47a4-bf57-058580957d62|44050c2e-137a-4ee5-aab6-af6e82cb550c",
-          ""
-        ],
-        [
-          "clearance|141770000|150920000|40ece557-24f2-47a4-bf57-058580957d62|fcebfa8a-eb3d-4196-9404-532dc9ddde9f",
-          ""
-        ],
-        [
-          "clearance|146205000|147060000|cf9a04ac-e742-4cc4-b820-74b94e875632|fd267553-ab4f-45b2-b9de-3fd8c755208d",
-          ""
-        ],
-        [
-          "clearance|159795000|147060000|386d8066-f8d7-448e-8535-fb964d94eab0|49b00fb2-fbf7-4862-ac04-916c407cd0f2",
-          ""
-        ],
-        [
-          "clearance|159975000|145410000|029ebbb9-b02f-45bd-96ed-01f4d0ed11f9|8cfd9587-a6c9-4a80-b337-75a1568e78eb",
-          ""
-        ],
-        [
-          "clearance|163003858|146776424|a2c51ef8-4a45-4b19-8a83-e2fa4ed59648|49b00fb2-fbf7-4862-ac04-916c407cd0f2",
-          ""
-        ],
-        [
-          "courtyards_overlap|124749999|104420001|00000000-0000-0000-0000-00005d2e9306|00000000-0000-0000-0000-00005e42b6ed",
-          ""
-        ],
-        [
-          "footprint_type_mismatch|187000000|157525000|00000000-0000-0000-0000-00005d2fec1a|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -300,20 +259,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "power_pin_not_driven|1003300|1181100|66cf9899-100d-45fb-9b9f-8f866de8a3fe|00000000-0000-0000-0000-000000000000|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|1524000|317500|2cecda96-8fc5-40d2-a9f4-ae1444adbd06|00000000-0000-0000-0000-000000000000|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005ed4bb5b|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005ed4bb5b|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|393700|1181100|0fc4267c-2119-444e-b3b2-d8a7bd88ec8a|00000000-0000-0000-0000-000000000000|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -565,14 +511,13 @@
         "bus_width": 12,
         "clearance": 0.13,
         "diff_pair_gap": 0.253,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.127,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "100R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.45,
@@ -580,17 +525,38 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.6,
+        "name": "24v_3a",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.5,
+        "via_diameter": 1.0,
+        "via_drill": 0.6
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.25,
+        "name": "3v3_misc",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
         "bus_width": 12,
         "clearance": 0.13,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.178,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "50R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13,
         "via_diameter": 0.45,
@@ -598,17 +564,26 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.3,
+        "name": "5V_2a",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
         "bus_width": 12,
         "clearance": 0.13,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.13,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "75R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13,
         "via_diameter": 0.45,
@@ -619,14 +594,13 @@
         "bus_width": 12,
         "clearance": 0.13,
         "diff_pair_gap": 0.253,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.147,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "90R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.147,
         "via_diameter": 0.45,
@@ -634,17 +608,28 @@
         "wire_width": 6
       },
       {
+        "clearance": 3.0,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.25,
+        "name": "AC Mains",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.0,
+        "via_diameter": 1.2,
+        "via_drill": 0.6
+      },
+      {
         "bus_width": 12,
         "clearance": 0.13,
         "diff_pair_gap": 0.253,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.127,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "HDMI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.45,
@@ -652,22 +637,41 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.25,
+        "name": "Motor",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.1
+      },
+      {
         "bus_width": 12,
         "clearance": 1.0,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.13,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "POE TAPS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 11,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "via_diameter": 0.45,
         "via_drill": 0.2,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "microvia_diameter": 0.4,
+        "microvia_drill": 0.1,
+        "name": "Teensy",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.35,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -711,6 +715,58 @@
       {
         "netclass": "90R",
         "pattern": "/USB2*"
+      },
+      {
+        "netclass": "AC Mains",
+        "pattern": "/AC_*"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/+5v"
+      },
+      {
+        "netclass": "24v_3a",
+        "pattern": "/+24v"
+      },
+      {
+        "netclass": "3v3_misc",
+        "pattern": "/+3.3v_*"
+      },
+      {
+        "netclass": "Teensy",
+        "pattern": "/T_*"
+      },
+      {
+        "netclass": "Teensy",
+        "pattern": "/DRV225/T_M2"
+      },
+      {
+        "netclass": "Teensy",
+        "pattern": "/DRV225/T_M0"
+      },
+      {
+        "netclass": "Teensy",
+        "pattern": "/DRV225/T_M1"
+      },
+      {
+        "netclass": "Teensy",
+        "pattern": "/DRV225/T_EN"
+      },
+      {
+        "netclass": "Teensy",
+        "pattern": "/DRV225/T_Dir"
+      },
+      {
+        "netclass": "Teensy",
+        "pattern": "/DRV225/T_Step"
+      },
+      {
+        "netclass": "3v3_misc",
+        "pattern": "/CM5_GPIO ( Ethernet, GPIO, SDCARD)/SD_PWR"
+      },
+      {
+        "netclass": "Motor",
+        "pattern": "/DRV225/S_*"
       }
     ]
   },
@@ -829,6 +885,210 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Equivalent Series Resistance(ESR)",
+          "name": "Equivalent Series Resistance(ESR)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Attrition Qty",
+          "name": "Attrition Qty",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Capacitance",
+          "name": "Capacitance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Category",
+          "name": "Category",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Minimum Qty",
+          "name": "Minimum Qty",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Operating Temperature",
+          "name": "Operating Temperature",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Operating Temperature Range",
+          "name": "Operating Temperature Range",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Overload Voltage (Max)",
+          "name": "Overload Voltage (Max)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part",
+          "name": "Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Class",
+          "name": "Class",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power(Watts)",
+          "name": "Power(Watts)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Process",
+          "name": "Process",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Rated Voltage",
+          "name": "Rated Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Resistance",
+          "name": "Resistance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Stock",
+          "name": "Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Temperature Coefficient",
+          "name": "Temperature Coefficient",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Type",
+          "name": "Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage Rated",
+          "name": "Voltage Rated",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -868,7 +1128,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "ngspice": {
       "fix_include_paths": true,
       "fix_passive_vals": false,
@@ -879,7 +1139,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "./SVG",
+    "plot_directory": "../../../../../Downloads/",
     "space_save_all_events": true,
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
@@ -907,6 +1167,38 @@
     [
       "00000000-0000-0000-0000-00005ed4bb5b",
       "PCIe-M2"
+    ],
+    [
+      "177cdcfd-5f5d-465e-a5a6-4433c160f48b",
+      "Teensy_4.0_Harness"
+    ],
+    [
+      "e34db096-2f2b-46af-8af2-078f818cdd39",
+      "BNO086"
+    ],
+    [
+      "f6b87a1e-4c5a-44b8-9fc5-43d65a99247d",
+      "DRV225"
+    ],
+    [
+      "a38bd25f-5d99-4890-967d-c746ce2f4f93",
+      "StereoMic"
+    ],
+    [
+      "d9959596-78b1-43f4-ba90-6ec76ab1fa52",
+      "StereoMic1"
+    ],
+    [
+      "506d7c96-19c1-498d-aa8f-d82ce0502bc5",
+      "StereoMic2"
+    ],
+    [
+      "30b543ce-1ea5-44b7-89ad-91086f8ee042",
+      "StereoMic3"
+    ],
+    [
+      "d0686ad4-6224-4f26-ab64-df0acd01b034",
+      "MaxAmplifier"
     ]
   ],
   "text_variables": {}
