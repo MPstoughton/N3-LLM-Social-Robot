@@ -909,16 +909,16 @@
       "PCIe-M2"
     ],
     [
-      "177cdcfd-5f5d-465e-a5a6-4433c160f48b",
-      "Teensy_4.0_Harness"
-    ],
-    [
       "e34db096-2f2b-46af-8af2-078f818cdd39",
       "BNO086"
     ],
     [
-      "f6b87a1e-4c5a-44b8-9fc5-43d65a99247d",
-      "DRV225"
+      "15cde86c-493f-4d28-8a18-7dec09ac8995",
+      "ESP32-S3-DKC1"
+    ],
+    [
+      "42efa3ee-6442-4474-87b0-fc8afc97b714",
+      "ReSpeaker"
     ],
     [
       "d0686ad4-6224-4f26-ab64-df0acd01b034",
