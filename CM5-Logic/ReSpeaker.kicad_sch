@@ -1570,7 +1570,7 @@
 		)
 		(uuid "36f436d2-c3e0-4fa6-8904-995f60cd52e1")
 	)
-	(hierarchical_label "+5V"
+	(hierarchical_label "+5v"
 		(shape input)
 		(at 144.78 78.74 180)
 		(effects
