@@ -1538,7 +1538,7 @@
 		(uuid "f147c374-e09f-4a8a-8441-577adad4070d")
 	)
 	(hierarchical_label "USBDP"
-		(shape input)
+		(shape output)
 		(at 130.81 93.98 0)
 		(effects
 			(font
@@ -1560,7 +1560,7 @@
 		(uuid "2fec9011-a278-4dcc-93d8-0a43c643687e")
 	)
 	(hierarchical_label "USBDN"
-		(shape input)
+		(shape output)
 		(at 130.81 96.52 0)
 		(effects
 			(font
