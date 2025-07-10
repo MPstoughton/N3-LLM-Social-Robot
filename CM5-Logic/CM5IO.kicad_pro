@@ -921,6 +921,10 @@
       "ReSpeaker"
     ],
     [
+      "dedc2c57-d649-4dbe-85bf-b82eafaf584c",
+      "TMC2209"
+    ],
+    [
       "d0686ad4-6224-4f26-ab64-df0acd01b034",
       "MaxAmplifier"
     ]
