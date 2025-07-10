@@ -15,16 +15,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 3.81 -6.35 0)
+			(property "Reference" "U3"
+				(at -0.635 9.271 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "AP2553W6"
-				(at -3.81 -6.35 0)
+			(property "Value" "AP22653W6"
+				(at -0.635 6.9596 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -67,7 +67,34 @@
 					(hide yes)
 				)
 			)
-			(property "Field5" "AP2553W6-7DICT-ND"
+			(property "Field5" "	31-AP22653W6-7CT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field6" "AP22653W6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field7" "Diodes"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Description" "	Power Switch/Driver 1:1 P-Channel 2.1A SOT-23-6"
 				(at 0 0 0)
 				(effects
 					(font
@@ -77,7 +104,7 @@
 				)
 			)
 			(symbol "AP2553W6_0_0"
-				(pin power_in line
+				(pin input line
 					(at -8.89 2.54 0)
 					(length 2.54)
 					(name "IN"
@@ -4555,8 +4582,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -2.54 7.62 0)
+			(property "Reference" "U4"
+				(at 2.54 10.541 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4564,7 +4591,7 @@
 				)
 			)
 			(property "Value" "RT9742SNGV"
-				(at 3.81 -5.08 0)
+				(at 2.54 8.2296 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4589,7 +4616,61 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "500mA Load Switch"
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field4" "Farnell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field5" "2575555"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field6" "RT9742SNGV"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field7" "RichTek"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Description" "Power Switch/Driver 1:1 N-Channel 500mA SOT-23-3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field8" "USWI00155"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4612,7 +4693,7 @@
 				)
 			)
 			(symbol "RT9742SNGV_1_1"
-				(pin power_in line
+				(pin input line
 					(at -5.08 3.81 0)
 					(length 2.54)
 					(name "IN"
@@ -6079,12 +6160,6 @@
 		(uuid "4c8704fa-310a-4c01-8dc1-2b7e2727fea0")
 	)
 	(junction
-		(at 194.31 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5589264e-2094-487b-b16b-33cb9d796197")
-	)
-	(junction
 		(at 35.56 40.64)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -7168,16 +7243,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 39.37) (xy 194.31 39.37)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "6e372326-1610-4031-86ca-4450f75d123c")
-	)
-	(wire
-		(pts
 			(xy 21.59 83.82) (xy 38.1 83.82)
 		)
 		(stroke
@@ -7295,6 +7360,16 @@
 			(type solid)
 		)
 		(uuid "799d9f4a-bb6b-44d5-9f4c-3a30db59943d")
+	)
+	(wire
+		(pts
+			(xy 177.8 46.99) (xy 194.31 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a03782b-7720-4a07-8421-e3955e77bc98")
 	)
 	(wire
 		(pts
@@ -7518,16 +7593,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 41.91) (xy 194.31 41.91)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "a4366d7c-c237-4b2d-84db-da52998d8063")
-	)
-	(wire
-		(pts
 			(xy 21.59 144.78) (xy 38.1 144.78)
 		)
 		(stroke
@@ -7535,6 +7600,16 @@
 			(type solid)
 		)
 		(uuid "a4541b62-7a39-4707-9c6f-80dce1be9cee")
+	)
+	(wire
+		(pts
+			(xy 177.8 41.91) (xy 194.31 41.91)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "a4705a1f-a8ab-4601-b5b2-6db11f9eb7ba")
 	)
 	(wire
 		(pts
@@ -7868,6 +7943,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 39.37) (xy 194.31 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d21902e0-0f01-45df-8a2c-8c18a5d923aa")
+	)
+	(wire
+		(pts
 			(xy 124.46 57.15) (xy 140.97 57.15)
 		)
 		(stroke
@@ -7978,16 +8063,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 44.45) (xy 194.31 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df4b6f82-d624-4fcb-837c-8f317646eed6")
-	)
-	(wire
-		(pts
 			(xy 177.8 36.83) (xy 194.31 36.83)
 		)
 		(stroke
@@ -8085,6 +8160,16 @@
 			(type solid)
 		)
 		(uuid "ea7c53f9-3aa8-4198-9879-de95a5257915")
+	)
+	(wire
+		(pts
+			(xy 177.8 44.45) (xy 194.31 44.45)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "eb448583-c58e-4806-abd8-974b9ddcfc9b")
 	)
 	(wire
 		(pts
@@ -8356,6 +8441,16 @@
 		)
 		(uuid "30922510-02dd-4dfe-8e1e-7f4a69e88c02")
 	)
+	(label "USB3-0-RX_P"
+		(at 177.8 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3355fe66-78c4-4293-af1d-d031089fd8b0")
+	)
 	(label "HDMI0_D2_P"
 		(at 21.59 111.76 0)
 		(effects
@@ -8375,16 +8470,6 @@
 			(justify left bottom)
 		)
 		(uuid "36210d52-4f9a-42bc-a022-019a63c67fc2")
-	)
-	(label "USB3-0-RX_P"
-		(at 177.8 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3d96cac8-303f-446a-a899-e384db9c8193")
 	)
 	(label "USB3-0-TX_N"
 		(at 21.59 73.66 0)
@@ -8415,16 +8500,6 @@
 			(justify left bottom)
 		)
 		(uuid "3e147ce1-21a6-4e77-a3db-fd00d575cd22")
-	)
-	(label "+5v"
-		(at 24.13 175.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "438bfc29-c054-4e2a-8dd2-0fd0b034d37b")
 	)
 	(label "HDMI0_CK_P"
 		(at 21.59 134.62 0)
@@ -8495,16 +8570,6 @@
 			(justify left bottom)
 		)
 		(uuid "5bb32dcb-8a97-4374-8a16-bc17822d4db3")
-	)
-	(label "USB3-0-RX_N"
-		(at 177.8 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "607bb4ca-f3e3-4a5a-8b50-bdb2387abcfb")
 	)
 	(label "HDMI1_D2_N"
 		(at 21.59 83.82 0)
@@ -8665,6 +8730,16 @@
 			(justify left bottom)
 		)
 		(uuid "8aa8d47e-f495-4049-8ac9-7f2ac3205412")
+	)
+	(label "USB3-0-RX_N"
+		(at 177.8 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c01665e-dcc4-44c8-a6b7-2d8367cc0384")
 	)
 	(label "VBUS"
 		(at 184.15 31.75 0)
@@ -9084,6 +9159,17 @@
 			(justify left)
 		)
 		(uuid "84a3f5d0-3ff0-4ec9-9127-5db67076b529")
+	)
+	(hierarchical_label "+5v"
+		(shape input)
+		(at 24.13 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ad1d16a-f0a0-41b8-bb2b-e025ea396859")
 	)
 	(hierarchical_label "PCIE_nWAKE"
 		(shape input)
@@ -10783,6 +10869,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 177.8 39.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fc338a6-5bd1-4d5e-a342-c261407859e2")
+		(property "Reference" "#PWR068"
+			(at 171.45 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.4058 39.497 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42ba60f3-f085-49ff-b373-098132371a82")
+		)
+		(instances
+			(project "CM5IO"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0805,10uF")
 		(at 110.49 181.61 0)
 		(unit 1)
@@ -12219,7 +12370,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 44.45 270)
+		(at 177.8 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12227,7 +12378,7 @@
 		(dnp no)
 		(uuid "aba07662-c408-4715-baed-45513b390685")
 		(property "Reference" "#PWR05"
-			(at 187.96 44.45 0)
+			(at 171.45 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12236,7 +12387,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.9158 44.577 0)
+			(at 173.4058 47.117 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12244,7 +12395,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 44.45 0)
+			(at 177.8 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12253,7 +12404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 44.45 0)
+			(at 177.8 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12262,7 +12413,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 44.45 0)
+			(at 177.8 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
