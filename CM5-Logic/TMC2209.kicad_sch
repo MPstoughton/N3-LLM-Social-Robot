@@ -742,7 +742,7 @@
 		)
 		(uuid "3611282c-720e-4102-8194-05774d360016")
 	)
-	(hierarchical_label "+24v"
+	(hierarchical_label "+12v"
 		(shape input)
 		(at 149.86 64.77 0)
 		(effects

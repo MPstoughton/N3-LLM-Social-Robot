@@ -925,8 +925,8 @@
       "TMC2209"
     ],
     [
-      "d0686ad4-6224-4f26-ab64-df0acd01b034",
-      "MaxAmplifier"
+      "423ee831-7c2f-4544-af8a-398bcd987f94",
+      "PAM8406DR_Amp"
     ]
   ],
   "text_variables": {}
