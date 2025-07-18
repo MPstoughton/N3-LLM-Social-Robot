@@ -5,32 +5,30 @@
 	(uuid "8b796e2a-b49a-4f67-bdad-e014d91441c8")
 	(paper "A4")
 	(lib_symbols
-		(symbol "6130XX11821_61300811821:6130XX11821_61300811821"
+		(symbol "TMC2209_SILENTSTEPSTICK:TMC2209_SILENTSTEPSTICK"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -10.16 -1.778 0)
+			(property "Reference" "U11"
+				(at 0 25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right bottom)
 				)
 			)
-			(property "Value" "6130XX11821_61300811821"
-				(at -10.16 -5.08 0)
+			(property "Value" "TMC2209_SILENTSTEPSTICK"
+				(at 0 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right bottom)
 				)
 			)
-			(property "Footprint" "6130XX11821_61300811821:61300811821"
+			(property "Footprint" "TMC2209_SILENTSTEPSTICK:MODULE_TMC2209_SILENTSTEPSTICK"
 				(at 0 0 0)
 				(effects
 					(font
@@ -58,10 +56,130 @@
 					(hide yes)
 				)
 			)
-			(symbol "6130XX11821_61300811821_0_0"
+			(property "MF" "Trinamic Motion Control GmbH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "TMC2209 Motor Controller/Driver Power Management Evaluation Board"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "1.20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TMC2209SILENTSTEPSTICK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Trinamic Motion Control GmbH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "TMC2209 SILENTSTEPSTICK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TMC2209_SILENTSTEPSTICK_0_0"
 				(rectangle
-					(start -8.89 -2.54)
-					(end 11.43 0)
+					(start -12.7 -20.32)
+					(end 12.7 20.32)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -70,201 +188,143 @@
 						(type background)
 					)
 				)
-				(circle
-					(center -7.62 -1.27)
-					(radius 0.4445)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -1.705) (xy -7.62 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -5.08 -1.27)
-					(radius 0.4445)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -1.705) (xy -5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 -1.27)
-					(radius 0.4445)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.705) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.27)
-					(radius 0.4445)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.705) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.27)
-					(radius 0.4445)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.705) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.08 -1.27)
-					(radius 0.4445)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -1.705) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 7.62 -1.27)
-					(radius 0.4445)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -1.705) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 10.16 -1.27)
-					(radius 0.4445)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -1.705) (xy 10.16 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 -5.08 90)
-					(length 2.54)
-					(name "~"
+				(pin input line
+					(at -17.78 10.16 0)
+					(length 5.08)
+					(name "~{EN}"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "1"
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "STEP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "DIR"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "MS1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "MS2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -7.62 0)
+					(length 5.08)
+					(name "SPRD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -10.16 0)
+					(length 5.08)
+					(name "PDN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -12.7 0)
+					(length 5.08)
+					(name "UART"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -273,9 +333,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 90)
-					(length 2.54)
-					(name "~"
+					(at 17.78 17.78 180)
+					(length 5.08)
+					(name "VIO"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -291,16 +351,16 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -5.08 90)
-					(length 2.54)
-					(name "~"
+					(at 17.78 15.24 180)
+					(length 5.08)
+					(name "VM"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "3"
+					(number "8"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -308,10 +368,46 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "~"
+				(pin output line
+					(at 17.78 10.16 180)
+					(length 5.08)
+					(name "INDEX"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "DIAG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "M1A"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -326,10 +422,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "~"
+				(pin output line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "M2A"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -344,10 +440,28 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 5.08 -5.08 90)
-					(length 2.54)
-					(name "~"
+				(pin output line
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(name "M1B"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "M2B"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -363,16 +477,16 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 90)
-					(length 2.54)
-					(name "~"
+					(at 17.78 -17.78 180)
+					(length 5.08)
+					(name "GND"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "7"
+					(number "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -380,17 +494,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 10.16 -5.08 90)
-					(length 2.54)
-					(name "~"
+				(pin power_in line
+					(at 17.78 -17.78 180)
+					(length 5.08)
+					(name "GND"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "8"
+					(number "7"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -654,196 +768,238 @@
 		)
 	)
 	(junction
-		(at 139.7 64.77)
+		(at 154.94 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "52ca0e07-d5a4-4874-a21d-8e8338ec47b3")
-	)
-	(junction
-		(at 139.7 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8eaeef4-5855-491e-8afc-7feed3710085")
+		(uuid "2a1b20b4-3d38-46ac-a33c-4925f5d8114d")
 	)
 	(no_connect
-		(at 111.76 77.47)
-		(uuid "14f4c114-9dd6-4fd5-a35d-1e53f0421dc2")
+		(at 107.95 137.16)
+		(uuid "364f44f8-83fd-4756-8e2d-c76a7d9bea01")
 	)
 	(no_connect
-		(at 111.76 72.39)
-		(uuid "357d55be-1300-4769-8474-7cc2195b69f7")
+		(at 143.51 119.38)
+		(uuid "68e904a4-9d84-4073-b725-e1b30143831d")
 	)
 	(no_connect
-		(at 111.76 74.93)
-		(uuid "80043a53-0e79-4a5b-a30c-f5b7dabd996f")
+		(at 107.95 132.08)
+		(uuid "9ce7327e-dd9e-4256-9c38-374a5a5a8b3e")
 	)
 	(no_connect
-		(at 111.76 82.55)
-		(uuid "85c97f55-32b5-4045-ac6d-d2e173eafb6c")
+		(at 107.95 134.62)
+		(uuid "9ee119e4-c6cb-4832-af51-34be22e2d6f4")
+	)
+	(no_connect
+		(at 143.51 116.84)
+		(uuid "b7cc35c1-3abc-4272-8363-f3683d8ab8bf")
+	)
+	(no_connect
+		(at 107.95 129.54)
+		(uuid "ce157a3a-20ef-47b5-9b8a-43801ce0fc18")
 	)
 	(wire
 		(pts
-			(xy 135.89 64.77) (xy 139.7 64.77)
+			(xy 154.94 111.76) (xy 143.51 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12900859-1d7e-43f4-9dad-c9b4089ce0a6")
+		(uuid "4cce977c-932c-42e6-8882-8394d119294f")
 	)
 	(wire
 		(pts
-			(xy 139.7 64.77) (xy 149.86 64.77)
+			(xy 156.21 111.76) (xy 154.94 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ac85421-c4af-4604-a916-02a1c16462cd")
-	)
-	(wire
-		(pts
-			(xy 142.24 72.39) (xy 139.7 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d79d106-8c41-4e77-915a-cd89ad213615")
-	)
-	(wire
-		(pts
-			(xy 135.89 69.85) (xy 135.89 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cad9f3e-3151-455d-aef2-9c67463ce24c")
-	)
-	(wire
-		(pts
-			(xy 139.7 72.39) (xy 135.89 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e671b640-9d66-4895-a0e8-d891f635dd04")
+		(uuid "df529d1e-93c3-4baf-b9b3-cd8395645166")
 	)
 	(hierarchical_label "EN"
 		(shape input)
-		(at 111.76 69.85 180)
+		(at 107.95 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "3611282c-720e-4102-8194-05774d360016")
-	)
-	(hierarchical_label "+12v"
-		(shape input)
-		(at 149.86 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3ab3b7b6-ed37-4012-bab3-f8ac62056e1c")
-	)
-	(hierarchical_label "+3.3V"
-		(shape input)
-		(at 135.89 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4e39adb4-298b-4808-8810-9314fdb877b0")
-	)
-	(hierarchical_label "B2"
-		(shape output)
-		(at 135.89 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "671abd4d-dc90-49c9-8875-c9c0cc3d68ca")
+		(uuid "1b3a0285-d2ae-41f1-8bcd-5d84c0a64689")
 	)
 	(hierarchical_label "A1"
 		(shape output)
-		(at 135.89 77.47 0)
+		(at 143.51 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "6a454dae-b87b-445a-b7a0-6d051ac6b51c")
-	)
-	(hierarchical_label "A2"
-		(shape output)
-		(at 135.89 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "75e139b9-ef89-4ff2-9a25-fba3dd7cf4e8")
-	)
-	(hierarchical_label "DIR"
-		(shape input)
-		(at 111.76 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e2917cf7-805a-46fc-8a4b-349c103a9aba")
+		(uuid "46e4d52b-ee21-4d4c-8042-1af59e4b872f")
 	)
 	(hierarchical_label "STEP"
 		(shape input)
-		(at 111.76 85.09 180)
+		(at 107.95 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "e5795da6-b62c-4921-9f1d-5895e5f31d2b")
-	)
-	(hierarchical_label "UART"
-		(shape input)
-		(at 111.76 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e837b7d3-b6af-4bec-bce9-304348a2db45")
+		(uuid "833b4627-c091-49df-86b3-11066faed6fa")
 	)
 	(hierarchical_label "B1"
 		(shape output)
-		(at 135.89 80.01 0)
+		(at 143.51 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "f6043dda-0bd2-441b-933d-6a1c40a2a74e")
+		(uuid "a02e292d-157a-4b41-af8d-6c352091ac31")
+	)
+	(hierarchical_label "DIR"
+		(shape input)
+		(at 107.95 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aae0b467-6dba-4ca5-bd41-82b0a51e29c1")
+	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 143.51 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b91fdef8-a7b8-4b3b-9321-3ed788327fc6")
+	)
+	(hierarchical_label "A2"
+		(shape output)
+		(at 143.51 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cbf54be2-dc4f-4d30-8db7-4ccf1f6a71b3")
+	)
+	(hierarchical_label "+12v"
+		(shape input)
+		(at 156.21 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc9bcb1a-d0a1-48ef-9540-6a3578d120c4")
+	)
+	(hierarchical_label "UART"
+		(shape input)
+		(at 107.95 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e98a4e1e-45fb-4827-bfc2-4191dacf051c")
+	)
+	(hierarchical_label "B2"
+		(shape output)
+		(at 143.51 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd33b665-e91d-4235-890b-d69a338af0f3")
+	)
+	(symbol
+		(lib_id "WCAP-ASLI_6.3X7.7:WCAP-ASLI_6.3X7.7")
+		(at 154.94 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "141db677-da23-4009-9b3e-25de47268ca5")
+		(property "Reference" "C35"
+			(at 158.75 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WCAP-ASLI_6.3X7.7"
+			(at 158.75 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom Components:WCAP-ASLI_6.3X7.7_DXL_"
+			(at 154.94 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "083d624c-5b71-49f8-b3cf-9ca356761031")
+		)
+		(pin "1"
+			(uuid "525f5665-4721-4e19-a841-b3c8be891f42")
+		)
+		(instances
+			(project "CM5IO"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/dedc2c57-d649-4dbe-85bf-b82eafaf584c"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 87.63 90)
+		(at 143.51 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -851,8 +1007,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a1e5fd1-ea44-4c95-8644-f570211992f3")
-		(property "Reference" "#PWR070"
-			(at 142.24 87.63 0)
+		(property "Reference" "#PWR068"
+			(at 149.86 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -861,7 +1017,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 87.6299 90)
+			(at 147.32 144.7799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -870,7 +1026,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 87.63 0)
+			(at 143.51 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -879,7 +1035,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 87.63 0)
+			(at 143.51 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -888,7 +1044,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 87.63 0)
+			(at 143.51 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -902,7 +1058,7 @@
 		(instances
 			(project "CM5IO"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/dedc2c57-d649-4dbe-85bf-b82eafaf584c"
-					(reference "#PWR070")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -910,16 +1066,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 72.39 90)
+		(at 154.94 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6154867c-84df-4f35-a993-387b0a41ab1e")
-		(property "Reference" "#PWR071"
-			(at 148.59 72.39 0)
+		(uuid "36524cc9-14a6-4f8d-a2d0-4daff151769e")
+		(property "Reference" "#PWR027"
+			(at 161.29 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -928,7 +1084,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 72.3899 90)
+			(at 158.75 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -937,7 +1093,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 72.39 0)
+			(at 154.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -946,7 +1102,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 72.39 0)
+			(at 154.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -955,7 +1111,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 72.39 0)
+			(at 154.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -964,224 +1120,45 @@
 			)
 		)
 		(pin "1"
-			(uuid "e2196721-9c8a-4ed0-8dcb-289b57f3b706")
+			(uuid "9c1f8abe-46bc-4201-a465-2fa0c439dd77")
 		)
 		(instances
 			(project "CM5IO"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/dedc2c57-d649-4dbe-85bf-b82eafaf584c"
-					(reference "#PWR071")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "6130XX11821_61300811821:6130XX11821_61300811821")
-		(at 130.81 77.47 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6464cd33-bfae-4b59-abc9-6b53174cb309")
-		(property "Reference" "J17"
-			(at 153.162 94.996 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6130XX11821_61300811821"
-			(at 153.162 97.536 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "6130XX11821_61300811821:61300811821"
-			(at 130.81 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 130.81 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a049058b-5314-4de9-a89f-9f51f64a40c1")
-		)
-		(pin "5"
-			(uuid "33d0d4e8-5154-495f-a264-0bc1d610c841")
-		)
-		(pin "7"
-			(uuid "c61ae24f-ea92-4974-a611-3142dd240407")
-		)
-		(pin "8"
-			(uuid "ce40cebc-ffac-44a2-9510-2337d380d52b")
-		)
-		(pin "2"
-			(uuid "01bdb7a8-91de-4f1d-a180-a207e8db447c")
-		)
-		(pin "4"
-			(uuid "bdd7c2b5-fb51-41f3-b6b7-a2253c32e70b")
-		)
-		(pin "6"
-			(uuid "09c5b97e-b1ea-420e-9be8-3d1d44a656b1")
-		)
-		(pin "3"
-			(uuid "e8ed88bf-94ca-412c-9542-9683c1cd5dc4")
-		)
-		(instances
-			(project "CM5IO"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/dedc2c57-d649-4dbe-85bf-b82eafaf584c"
-					(reference "J17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "6130XX11821_61300811821:6130XX11821_61300811821")
-		(at 116.84 77.47 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ab342a4-2be8-4665-b2f4-699d5ad18efb")
-		(property "Reference" "J16"
-			(at 94.488 94.996 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6130XX11821_61300811821"
-			(at 94.488 97.536 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "6130XX11821_61300811821:61300811821"
-			(at 116.84 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbe5cb34-2be4-476c-a14e-ad68cd88de23")
-		)
-		(pin "5"
-			(uuid "e9741dad-2027-4fb8-bebd-28613ba8f05f")
-		)
-		(pin "7"
-			(uuid "eea63994-0273-4f17-af9d-f8c39e74ff8e")
-		)
-		(pin "8"
-			(uuid "40472f16-a3fc-4772-bf9c-7ee87675329e")
-		)
-		(pin "2"
-			(uuid "a7b2fe9d-5644-4dee-806f-19a327c7195b")
-		)
-		(pin "4"
-			(uuid "5ba7db26-4f77-41fe-97cb-bd305d47a34b")
-		)
-		(pin "6"
-			(uuid "7b8118c4-f9ac-4b7f-991a-88eac2484c9c")
-		)
-		(pin "3"
-			(uuid "223dfcde-0363-4b13-a642-e5bfb3fe2863")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/dedc2c57-d649-4dbe-85bf-b82eafaf584c"
-					(reference "J16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "WCAP-ASLI_6.3X7.7:WCAP-ASLI_6.3X7.7")
-		(at 139.7 69.85 90)
+		(lib_id "TMC2209_SILENTSTEPSTICK:TMC2209_SILENTSTEPSTICK")
+		(at 125.73 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ca312657-9dbe-4686-897c-a07e71b7a08d")
-		(property "Reference" "C32"
-			(at 143.51 66.343 90)
+		(uuid "985bd389-f55e-489e-b5d5-a20c455f849e")
+		(property "Reference" "U11"
+			(at 125.73 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "WCAP-ASLI_6.3X7.7"
-			(at 143.51 68.883 90)
+		(property "Value" "TMC2209_SILENTSTEPSTICK"
+			(at 125.73 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "WCAP-ASLI_6.3X7.7:WCAP-ASLI_6.3X7.7_DXL_"
-			(at 139.7 69.85 0)
+		(property "Footprint" "TMC2209_SILENTSTEPSTICK:MODULE_TMC2209_SILENTSTEPSTICK"
+			(at 125.73 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1191,7 +1168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 69.85 0)
+			(at 125.73 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1200,7 +1177,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 69.85 0)
+			(at 125.73 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1208,16 +1185,184 @@
 				(hide yes)
 			)
 		)
+		(property "MF" "Trinamic Motion Control GmbH"
+			(at 125.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "TMC2209 Motor Controller/Driver Power Management Evaluation Board"
+			(at 125.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 125.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 125.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=eda"
+			(at 125.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 125.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.20"
+			(at 125.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=snap"
+			(at 125.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TMC2209SILENTSTEPSTICK"
+			(at 125.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Trinamic Motion Control GmbH"
+			(at 125.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 125.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "TMC2209 SILENTSTEPSTICK"
+			(at 125.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "15"
+			(uuid "32bd9cd6-d5bf-43f2-b58a-5be4efd0010a")
+		)
+		(pin "12"
+			(uuid "8868402d-7bbf-4e33-b291-96bd4a17b06c")
+		)
+		(pin "7"
+			(uuid "de98fd3f-42ab-480a-b519-06c30561098c")
+		)
+		(pin "4"
+			(uuid "eff21bb2-ff4c-4baa-b0de-bd51db1bf541")
+		)
+		(pin "16"
+			(uuid "26eb1773-fb03-4d33-a81d-ffda7d22a9c3")
+		)
+		(pin "9"
+			(uuid "c9e17446-af2d-4462-9150-f73fbdde5572")
+		)
+		(pin "17"
+			(uuid "06a15c00-741a-445a-84f8-ad03c975a8bd")
+		)
+		(pin "6"
+			(uuid "41d12833-be7c-4e67-b0e5-402cb7804cdc")
+		)
+		(pin "11"
+			(uuid "f5ef80eb-d16d-45c9-8953-49386ce6ee16")
+		)
+		(pin "13"
+			(uuid "237a8acf-cf97-46fe-a9b5-2a7b3b70877f")
+		)
+		(pin "14"
+			(uuid "1e4aed57-33fb-40aa-ae3d-3b06c1940a23")
+		)
+		(pin "8"
+			(uuid "83593d75-1f95-4da9-b7e2-a1ceb2f26496")
+		)
 		(pin "2"
-			(uuid "934c7d32-c0da-44d2-8224-78f05e9f4ded")
+			(uuid "c92d12a6-6340-4e02-95a7-0c7851a70405")
+		)
+		(pin "3"
+			(uuid "ea2800bd-b014-46e7-a21e-c65d5f48d592")
+		)
+		(pin "18"
+			(uuid "18e5fe86-89b6-4678-8c6f-894531eba191")
 		)
 		(pin "1"
-			(uuid "f8ddc53d-de82-4f74-b902-efe6ac6ff929")
+			(uuid "4e91e15e-b712-4950-8af5-bbc5727b351c")
+		)
+		(pin "10"
+			(uuid "335926f9-a928-4df7-9bb6-fadb96e840d0")
+		)
+		(pin "5"
+			(uuid "e5d65996-608c-4775-b061-039472daa7e7")
 		)
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/dedc2c57-d649-4dbe-85bf-b82eafaf584c"
-					(reference "C32")
+					(reference "U11")
 					(unit 1)
 				)
 			)
