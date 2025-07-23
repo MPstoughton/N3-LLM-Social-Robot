@@ -11,29 +11,27 @@
       "images": 0.6,
       "pads": 0.30000001192092896,
       "shapes": 1.0,
-      "tracks": 1.0,
+      "tracks": 0.30000001192092896,
       "vias": 1.0,
       "zones": 0.49000000953674316
     },
     "ratsnest_display_mode": 1,
     "selection_filter": {
-      "dimensions": false,
+      "dimensions": true,
       "footprints": true,
-      "graphics": false,
-      "keepouts": false,
+      "graphics": true,
+      "keepouts": true,
       "lockedItems": true,
-      "otherItems": false,
-      "pads": false,
+      "otherItems": true,
+      "pads": true,
       "text": true,
-      "tracks": false,
-      "vias": false,
-      "zones": false
+      "tracks": true,
+      "vias": true,
+      "zones": true
     },
     "visible_items": [
-      "vias",
       "footprint_text",
       "footprint_anchors",
-      "ratsnest",
       "grid",
       "footprints_front",
       "footprints_back",
@@ -44,11 +42,10 @@
       "drawing_sheet",
       "bitmaps",
       "pads",
-      "zones",
       "drc_warnings",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0000bfe0_80000065",
+    "visible_layers": "00000000_00000000_0000bfe0_80000021",
     "zone_display_mode": 0
   },
   "git": {

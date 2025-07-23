@@ -1157,7 +1157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMC2209_SILENTSTEPSTICK:MODULE_TMC2209_SILENTSTEPSTICK"
+		(property "Footprint" "Custom Components:MODULE_TMC2209_SILENTSTEPSTICK"
 			(at 125.73 127 0)
 			(effects
 				(font

@@ -126,7 +126,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -18065,7 +18064,7 @@
 		(property "Reference" "J14"
 			(at -4.8 -0.8 180)
 			(layer "F.SilkS")
-			(uuid "91270ed2-2b98-4a14-9d02-d97df6981920")
+			(uuid "af457258-a5c3-401e-b742-a485fb9fe218")
 			(effects
 				(font
 					(size 1 1)
@@ -18076,7 +18075,7 @@
 		(property "Value" "JST_SHBM04B-SRSS-TB"
 			(at 0 3.3 90)
 			(layer "F.Fab")
-			(uuid "0ced24d6-2d4d-4082-9928-90bf696c0632")
+			(uuid "65624bb1-3e7b-41ab-82ef-5f23486ff63f")
 			(effects
 				(font
 					(size 1 1)
@@ -18089,7 +18088,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "20f12309-9930-479e-b1f5-0b7657330165")
+			(uuid "47ad4b62-fc6e-4da9-945c-1f7918cc94de")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18102,7 +18101,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "56dffa4d-8eef-4c7c-9be1-da12f4062833")
+			(uuid "2f3a2bb4-af32-479e-9746-ec7da6b17e51")
 			(effects
 				(font
 					(size 1.27 1.27)

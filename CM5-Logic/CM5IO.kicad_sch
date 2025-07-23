@@ -6082,16 +6082,6 @@
 	)
 	(wire
 		(pts
-			(xy 410.21 187.96) (xy 430.53 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "151a15d3-b1d1-4f4d-83d3-8cde450aa9f6")
-	)
-	(wire
-		(pts
 			(xy 406.4 168.91) (xy 400.05 168.91)
 		)
 		(stroke
@@ -6129,16 +6119,6 @@
 			(type default)
 		)
 		(uuid "2241bba8-9090-4861-966f-2fc9e2aa7c6f")
-	)
-	(wire
-		(pts
-			(xy 410.21 190.5) (xy 427.99 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2978f4c7-c47d-4b64-8d39-1e8fc30aca90")
 	)
 	(wire
 		(pts
@@ -6229,16 +6209,6 @@
 			(type default)
 		)
 		(uuid "4530426c-5124-4b8c-ac17-4bc879d5b64d")
-	)
-	(wire
-		(pts
-			(xy 430.53 187.96) (xy 430.53 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "467d282b-45ea-42ff-9a26-bcd81fe158f9")
 	)
 	(wire
 		(pts
@@ -6482,6 +6452,16 @@
 	)
 	(wire
 		(pts
+			(xy 410.21 190.5) (xy 430.53 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "728619c4-5769-46c1-914d-76fb653d6c1a")
+	)
+	(wire
+		(pts
 			(xy 482.6 173.99) (xy 482.6 176.53)
 		)
 		(stroke
@@ -6529,6 +6509,16 @@
 			(type default)
 		)
 		(uuid "80022795-2a45-4eab-8b82-7ad4739067dd")
+	)
+	(wire
+		(pts
+			(xy 427.99 187.96) (xy 410.21 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "803c48d4-07a3-468e-8c4b-d15b6cc7008c")
 	)
 	(wire
 		(pts
@@ -6782,6 +6772,16 @@
 	)
 	(wire
 		(pts
+			(xy 430.53 190.5) (xy 430.53 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b52fb154-9a0b-4616-8c14-e135bf28301c")
+	)
+	(wire
+		(pts
 			(xy 537.21 96.52) (xy 547.37 96.52)
 		)
 		(stroke
@@ -6822,7 +6822,7 @@
 	)
 	(wire
 		(pts
-			(xy 427.99 190.5) (xy 427.99 200.66)
+			(xy 427.99 187.96) (xy 427.99 200.66)
 		)
 		(stroke
 			(width 0)
@@ -9146,7 +9146,7 @@
 			(uuid "dab5a2bb-363f-4c7a-997d-127f7ba366e0")
 		)
 		(instances
-			(project ""
+			(project "CM5IO"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J3")
 					(unit 1)
@@ -10751,7 +10751,7 @@
 			)
 		)
 		(pin "A1" output
-			(at 389.89 44.45 180)
+			(at 389.89 46.99 180)
 			(uuid "3f0fe592-3f27-4e17-84d3-e2277b2e2412")
 			(effects
 				(font
@@ -10761,7 +10761,7 @@
 			)
 		)
 		(pin "A2" output
-			(at 389.89 41.91 180)
+			(at 389.89 44.45 180)
 			(uuid "0605a75a-d8bd-43b4-aa83-bb9c659f756f")
 			(effects
 				(font
@@ -10771,7 +10771,7 @@
 			)
 		)
 		(pin "B1" output
-			(at 389.89 46.99 180)
+			(at 389.89 41.91 180)
 			(uuid "8b58a028-4284-41c5-9ffa-55d19ae6fbf8")
 			(effects
 				(font
